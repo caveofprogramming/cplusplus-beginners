@@ -1,0 +1,15 @@
+11:23:33 **** Incremental Build of configuration Debug for project Comparing Floats ****
+make all 
+Building file: ../src/Comparing Floats.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Comparing Floats.d" -MT"src/Comparing\ Floats.d" -o "src/Comparing Floats.o" "../src/Comparing Floats.cpp"
+Finished building: ../src/Comparing Floats.cpp
+ 
+Building target: Comparing Floats
+Invoking: MacOS X C++ Linker
+g++  -o "Comparing Floats"  ./src/Comparing\ Floats.o   
+Finished building target: Comparing Floats
+ 
+
+11:23:34 Build Finished (took 484ms)
+

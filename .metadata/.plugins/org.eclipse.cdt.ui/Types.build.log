@@ -1,0 +1,11 @@
+17:50:04 **** Incremental Build of configuration Debug for project Types ****
+make all 
+Building file: ../src/Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Types.d" -MT"src/Types.d" -o "src/Types.o" "../src/Types.cpp"
+../src/Types.cpp: In function 'int main()':
+../src/Types.cpp:19: error: 'DOUBLE_MAX' was not declared in this scope
+make: *** [src/Types.o] Error 1
+
+17:50:04 Build Finished (took 214ms)
+

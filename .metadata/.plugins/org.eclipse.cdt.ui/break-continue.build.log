@@ -1,0 +1,15 @@
+14:34:47 **** Incremental Build of configuration Debug for project break-continue ****
+make all 
+Building file: ../src/break-continue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/break-continue.d" -MT"src/break-continue.d" -o "src/break-continue.o" "../src/break-continue.cpp"
+Finished building: ../src/break-continue.cpp
+ 
+Building target: break-continue
+Invoking: MacOS X C++ Linker
+g++  -o "break-continue"  ./src/break-continue.o   
+Finished building target: break-continue
+ 
+
+14:34:48 Build Finished (took 271ms)
+

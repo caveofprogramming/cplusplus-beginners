@@ -1,0 +1,15 @@
+10:51:37 **** Incremental Build of configuration Debug for project Floating Point Types ****
+make all 
+Building file: ../src/Floating Point Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Floating Point Types.d" -MT"src/Floating\ Point\ Types.d" -o "src/Floating Point Types.o" "../src/Floating Point Types.cpp"
+Finished building: ../src/Floating Point Types.cpp
+ 
+Building target: Floating Point Types
+Invoking: MacOS X C++ Linker
+g++  -o "Floating Point Types"  ./src/Floating\ Point\ Types.o   
+Finished building target: Floating Point Types
+ 
+
+10:51:37 Build Finished (took 264ms)
+

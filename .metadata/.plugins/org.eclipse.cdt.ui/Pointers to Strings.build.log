@@ -1,0 +1,15 @@
+19:35:57 **** Incremental Build of configuration Debug for project Pointers to Strings ****
+make all 
+Building file: ../src/Pointers to Strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers to Strings.d" -MT"src/Pointers\ to\ Strings.d" -o "src/Pointers to Strings.o" "../src/Pointers to Strings.cpp"
+Finished building: ../src/Pointers to Strings.cpp
+ 
+Building target: Pointers to Strings
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers to Strings"  ./src/Pointers\ to\ Strings.o   
+Finished building target: Pointers to Strings
+ 
+
+19:35:58 Build Finished (took 468ms)
+

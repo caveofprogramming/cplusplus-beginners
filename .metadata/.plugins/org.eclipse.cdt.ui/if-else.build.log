@@ -1,0 +1,15 @@
+11:31:04 **** Incremental Build of configuration Debug for project if-else ****
+make all 
+Building file: ../src/if-else.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/if-else.d" -MT"src/if-else.d" -o "src/if-else.o" "../src/if-else.cpp"
+Finished building: ../src/if-else.cpp
+ 
+Building target: if-else
+Invoking: MacOS X C++ Linker
+g++  -o "if-else"  ./src/if-else.o   
+Finished building target: if-else
+ 
+
+11:31:04 Build Finished (took 270ms)
+

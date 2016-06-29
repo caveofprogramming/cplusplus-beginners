@@ -1,0 +1,15 @@
+19:11:13 **** Incremental Build of configuration Debug for project Getters and Setters ****
+make all 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.d" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: Getters and Setters
+Invoking: MacOS X C++ Linker
+g++  -o "Getters and Setters"  ./src/Getters\ and\ Setters.o ./src/Person.o   
+Finished building target: Getters and Setters
+ 
+
+19:11:13 Build Finished (took 519ms)
+

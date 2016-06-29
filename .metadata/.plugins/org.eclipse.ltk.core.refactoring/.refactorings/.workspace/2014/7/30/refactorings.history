@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/Namespaces/src/Cat.cpp" element2="/Namespaces/src/Cat.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1406044512605"/>&#x0A;<refactoring comment="Rename resource &apos;Inheritance and Instance Data&apos; to &apos;Public, Private, Protected&apos;" description="Rename resource &apos;Inheritance and Instance Data&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Inheritance and Instance Data" name="Public, Private, Protected" stamp="1406050565396" updateReferences="true"/>
+</session>

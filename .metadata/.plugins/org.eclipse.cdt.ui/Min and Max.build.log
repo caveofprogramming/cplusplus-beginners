@@ -1,0 +1,7 @@
+17:52:53 **** Clean-only build of configuration Debug for project Min and Max ****
+make clean 
+rm -rf  ./src/Min\ and\ Max.o  ./src/Min\ and\ Max.d  "Min and Max"
+ 
+
+17:52:53 Build Finished (took 61ms)
+

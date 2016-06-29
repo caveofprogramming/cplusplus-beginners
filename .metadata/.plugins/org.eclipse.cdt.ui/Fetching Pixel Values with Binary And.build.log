@@ -1,0 +1,22 @@
+15:17:18 **** Incremental Build of configuration Debug for project Fetching Pixel Values with Binary And ****
+make all 
+Building file: ../src/Fetching Pixel Values with Binary And.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Fetching Pixel Values with Binary And.d" -MT"src/Fetching\ Pixel\ Values\ with\ Binary\ And.d" -o "src/Fetching Pixel Values with Binary And.o" "../src/Fetching Pixel Values with Binary And.cpp"
+../src/Fetching Pixel Values with Binary And.cpp:17:17: warning: unused variable 'blue' [-Wunused-variable]
+        unsigned char  blue = (color & 0x0000FF);
+                       ^
+../src/Fetching Pixel Values with Binary And.cpp:16:17: warning: unused variable 'green' [-Wunused-variable]
+        unsigned char  green = (color & 0x00FF00) >> 8;
+                       ^
+2 warnings generated.
+Finished building: ../src/Fetching Pixel Values with Binary And.cpp
+ 
+Building target: Fetching Pixel Values with Binary And
+Invoking: MacOS X C++ Linker
+g++  -o "Fetching Pixel Values with Binary And"  ./src/Fetching\ Pixel\ Values\ with\ Binary\ And.o   
+Finished building target: Fetching Pixel Values with Binary And
+ 
+
+15:17:18 Build Finished (took 571ms)
+

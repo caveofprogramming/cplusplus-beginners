@@ -1,0 +1,15 @@
+17:47:40 **** Build of configuration Debug for project Allocating Memory ****
+make all 
+Building file: ../src/Allocating Memory.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Allocating Memory.d" -MT"src/Allocating\ Memory.d" -o "src/Allocating Memory.o" "../src/Allocating Memory.cpp"
+Finished building: ../src/Allocating Memory.cpp
+ 
+Building target: Allocating Memory
+Invoking: MacOS X C++ Linker
+g++  -o "Allocating Memory"  ./src/Allocating\ Memory.o   
+Finished building target: Allocating Memory
+ 
+
+17:47:49 Build Finished (took 9s.38ms)
+

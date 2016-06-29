@@ -1,0 +1,25 @@
+16:30:43 **** Incremental Build of configuration Debug for project Creating Particles ****
+make all 
+Building file: ../src/Particle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Particle.d" -MT"src/Particle.d" -o "src/Particle.o" "../src/Particle.cpp"
+Finished building: ../src/Particle.cpp
+ 
+Building file: ../src/Swarm.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Swarm.d" -MT"src/Swarm.d" -o "src/Swarm.o" "../src/Swarm.cpp"
+Finished building: ../src/Swarm.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Creating Particles
+Invoking: MacOS X C++ Linker
+g++ -L/usr/local/lib -o "Creating Particles"  ./src/Particle.o ./src/Screen.o ./src/Swarm.o ./src/main.o   -lSDL2
+Finished building target: Creating Particles
+ 
+
+16:30:44 Build Finished (took 621ms)
+

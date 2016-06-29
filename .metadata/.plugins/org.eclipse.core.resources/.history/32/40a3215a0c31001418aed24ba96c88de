@@ -1,0 +1,38 @@
+//============================================================================
+// Name        : SDL.cpp
+// Author      : John Purcell
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <SDL.h>
+using namespace std;
+
+int main() {
+
+	const int SCREEN_WIDTH = 800;
+	const int SCREEN_HEIGHT = 600;
+
+	if (SDL_Init(SDL_INIT_VIDEO) < 0) {
+		cout << "SDL init failed." << endl;
+		return 1;
+	}
+
+	SDL_Window *window = SDL_CreateWindow("Particle Fire Explosion",
+			SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH,
+			SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
+
+	if(window == NULL) {
+		cout << "Could not create window" << endl;
+		SDL_Quit();
+		return 1;
+	}
+
+
+	SDL_DestroyWindow(window);
+	SDL_Quit();
+
+	return 0;
+}

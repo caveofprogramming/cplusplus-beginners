@@ -1,0 +1,28 @@
+//============================================================================
+// Name        : Pointers.cpp
+// Author      : John Purcell
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+/*
+ * Array of chars
+ * Iterate through char array with pointer, using array syntax [i]
+ */
+
+int main() {
+
+	char text[] = "hello";
+
+	char *pText = text;
+
+	for(int i=0; i<sizeof(text); i++) {
+		cout << i << ": " << text[i] << ": " << pText[i] << endl;
+	}
+
+	return 0;
+}

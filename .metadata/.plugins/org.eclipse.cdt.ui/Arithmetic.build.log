@@ -1,0 +1,15 @@
+17:47:50 **** Incremental Build of configuration Debug for project Arithmetic ****
+make all 
+Building file: ../src/Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.d" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
+Finished building: ../src/Arithmetic.cpp
+ 
+Building target: Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Arithmetic"  ./src/Arithmetic.o   
+Finished building target: Arithmetic
+ 
+
+17:47:50 Build Finished (took 468ms)
+

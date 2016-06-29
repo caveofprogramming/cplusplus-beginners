@@ -1,0 +1,15 @@
+12:13:16 **** Incremental Build of configuration Debug for project Advanced conditions ****
+make all 
+Building file: ../src/Advanced conditions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Advanced conditions.d" -MT"src/Advanced\ conditions.d" -o "src/Advanced conditions.o" "../src/Advanced conditions.cpp"
+Finished building: ../src/Advanced conditions.cpp
+ 
+Building target: Advanced conditions
+Invoking: MacOS X C++ Linker
+g++  -o "Advanced conditions"  ./src/Advanced\ conditions.o   
+Finished building target: Advanced conditions
+ 
+
+12:13:16 Build Finished (took 267ms)
+

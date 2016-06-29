@@ -1,0 +1,15 @@
+18:11:11 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+Finished building: ../src/Pointers and Arrays.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
+Finished building target: Pointers and Arrays
+ 
+
+18:11:12 Build Finished (took 464ms)
+

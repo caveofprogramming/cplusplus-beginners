@@ -1,0 +1,7 @@
+17:52:53 **** Clean-only build of configuration Debug for project Input ****
+make clean 
+rm -rf  ./src/Input.o  ./src/Input.d  Input
+ 
+
+17:52:53 Build Finished (took 62ms)
+

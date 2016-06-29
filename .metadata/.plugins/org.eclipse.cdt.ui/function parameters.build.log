@@ -1,0 +1,15 @@
+12:04:30 **** Build of configuration Debug for project function parameters ****
+make all 
+Building file: ../src/functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.d" -o "src/functions.o" "../src/functions.cpp"
+Finished building: ../src/functions.cpp
+ 
+Building target: function parameters
+Invoking: MacOS X C++ Linker
+g++  -o "function parameters"  ./src/functions.o   
+Finished building target: function parameters
+ 
+
+12:04:30 Build Finished (took 272ms)
+

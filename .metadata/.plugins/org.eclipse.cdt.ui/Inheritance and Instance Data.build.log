@@ -1,0 +1,15 @@
+19:35:35 **** Incremental Build of configuration Debug for project Inheritance and Instance Data ****
+make all 
+Building file: ../src/Inheritance.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inheritance.d" -MT"src/Inheritance.d" -o "src/Inheritance.o" "../src/Inheritance.cpp"
+Finished building: ../src/Inheritance.cpp
+ 
+Building target: Inheritance and Instance Data
+Invoking: MacOS X C++ Linker
+g++  -o "Inheritance and Instance Data"  ./src/Inheritance.o   
+Finished building target: Inheritance and Instance Data
+ 
+
+19:35:36 Build Finished (took 414ms)
+

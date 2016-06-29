@@ -1,0 +1,15 @@
+12:28:28 **** Incremental Build of configuration Debug for project sizeof ****
+make all 
+Building file: ../src/sizeof.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sizeof.d" -MT"src/sizeof.d" -o "src/sizeof.o" "../src/sizeof.cpp"
+Finished building: ../src/sizeof.cpp
+ 
+Building target: sizeof
+Invoking: MacOS X C++ Linker
+g++  -o "sizeof"  ./src/sizeof.o   
+Finished building target: sizeof
+ 
+
+12:28:29 Build Finished (took 267ms)
+

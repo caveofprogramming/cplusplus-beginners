@@ -1,0 +1,15 @@
+14:19:32 **** Incremental Build of configuration Debug for project for ****
+make all 
+Building file: ../src/for.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for.d" -MT"src/for.d" -o "src/for.o" "../src/for.cpp"
+Finished building: ../src/for.cpp
+ 
+Building target: for
+Invoking: MacOS X C++ Linker
+g++  -o "for"  ./src/for.o   
+Finished building target: for
+ 
+
+14:19:32 Build Finished (took 266ms)
+

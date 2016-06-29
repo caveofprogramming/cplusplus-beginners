@@ -1,0 +1,15 @@
+16:32:49 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Const.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.d" -o "src/Const.o" "../src/Const.cpp"
+Finished building: ../src/Const.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Const.o   
+Finished building target: Const
+ 
+
+16:32:49 Build Finished (took 466ms)
+

@@ -1,0 +1,31 @@
+/*
+ * Person.cpp
+ *
+ *  Created on: 11 Jul 2014
+ *      Author: johnwpurcell
+ */
+
+#include "Person.h"
+
+Person::Person(string newName) {
+	age = 0;
+	name = newName;
+}
+
+Person::Person(string initName, int initAge) {
+	name = initName;
+	age = initAge;
+}
+
+string Person::toString() {
+	return "Person's name is: " + name + " and age is: " + age;
+}
+
+void Person::setName(string newName) {
+	name = newName;
+}
+
+string Person::getName() {
+	return name;
+}
+

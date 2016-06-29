@@ -1,0 +1,15 @@
+12:53:12 **** Build of configuration Debug for project Encapsulation ****
+make all 
+Building file: ../src/Encapsulation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.d" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+Finished building: ../src/Encapsulation.cpp
+ 
+Building target: Encapsulation
+Invoking: MacOS X C++ Linker
+g++  -o "Encapsulation"  ./src/Encapsulation.o   
+Finished building target: Encapsulation
+ 
+
+12:53:12 Build Finished (took 463ms)
+

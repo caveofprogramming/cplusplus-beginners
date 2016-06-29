@@ -1,0 +1,15 @@
+18:46:50 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+
+18:46:50 Build Finished (took 465ms)
+

@@ -1,0 +1,15 @@
+14:00:08 **** Incremental Build of configuration Debug for project Bit Shifting ****
+make all 
+Building file: ../src/Bit Shifting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bit Shifting.d" -MT"src/Bit\ Shifting.d" -o "src/Bit Shifting.o" "../src/Bit Shifting.cpp"
+Finished building: ../src/Bit Shifting.cpp
+ 
+Building target: Bit Shifting
+Invoking: MacOS X C++ Linker
+g++  -o "Bit Shifting"  ./src/Bit\ Shifting.o   
+Finished building target: Bit Shifting
+ 
+
+14:00:09 Build Finished (took 461ms)
+

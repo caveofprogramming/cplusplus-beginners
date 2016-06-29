@@ -1,0 +1,15 @@
+19:53:00 **** Incremental Build of configuration Debug for project String Streams ****
+make all 
+Building file: ../src/String Streams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
+Finished building: ../src/String Streams.cpp
+ 
+Building target: String Streams
+Invoking: MacOS X C++ Linker
+g++  -o "String Streams"  ./src/String\ Streams.o   
+Finished building target: String Streams
+ 
+
+19:53:00 Build Finished (took 519ms)
+

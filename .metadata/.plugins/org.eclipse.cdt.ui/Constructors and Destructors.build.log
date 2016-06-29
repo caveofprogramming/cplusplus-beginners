@@ -1,0 +1,15 @@
+18:13:46 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+Finished building: ../src/Constructors and Destructors.cpp
+ 
+Building target: Constructors and Destructors
+Invoking: MacOS X C++ Linker
+g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
+Finished building target: Constructors and Destructors
+ 
+
+18:13:46 Build Finished (took 514ms)
+

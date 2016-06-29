@@ -1,0 +1,15 @@
+14:34:54 **** Incremental Build of configuration Debug for project New Operator ****
+make all 
+Building file: ../src/New Operator.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/New Operator.d" -MT"src/New\ Operator.d" -o "src/New Operator.o" "../src/New Operator.cpp"
+Finished building: ../src/New Operator.cpp
+ 
+Building target: New Operator
+Invoking: MacOS X C++ Linker
+g++  -o "New Operator"  ./src/New\ Operator.o   
+Finished building target: New Operator
+ 
+
+14:34:54 Build Finished (took 464ms)
+

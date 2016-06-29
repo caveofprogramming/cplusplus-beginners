@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Enabling Pixel Access/src/SDL Basic.cpp&apos; to &apos;main.cpp&apos;" description="Rename resource &apos;SDL Basic.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/SDL Basic.cpp" name="main.cpp" stamp="1409570665859" updateReferences="true"/>
+</session>

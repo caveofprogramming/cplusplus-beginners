@@ -1,0 +1,15 @@
+16:06:49 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/References.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.d" -o "src/References.o" "../src/References.cpp"
+Finished building: ../src/References.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/References.o   
+Finished building target: References
+ 
+
+16:06:49 Build Finished (took 463ms)
+

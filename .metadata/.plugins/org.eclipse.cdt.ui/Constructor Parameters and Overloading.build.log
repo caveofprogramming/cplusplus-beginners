@@ -1,0 +1,20 @@
+16:38:40 **** Incremental Build of configuration Debug for project Constructor Parameters and Overloading ****
+make all 
+Building file: ../src/Constructor Parameters and Overloading.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructor Parameters and Overloading.d" -MT"src/Constructor\ Parameters\ and\ Overloading.d" -o "src/Constructor Parameters and Overloading.o" "../src/Constructor Parameters and Overloading.cpp"
+Finished building: ../src/Constructor Parameters and Overloading.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.d" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: Constructor Parameters and Overloading
+Invoking: MacOS X C++ Linker
+g++  -o "Constructor Parameters and Overloading"  ./src/Constructor\ Parameters\ and\ Overloading.o ./src/Person.o   
+Finished building target: Constructor Parameters and Overloading
+ 
+
+16:38:41 Build Finished (took 926ms)
+

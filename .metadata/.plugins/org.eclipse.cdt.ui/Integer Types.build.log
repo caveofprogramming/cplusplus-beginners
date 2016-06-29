@@ -1,0 +1,15 @@
+18:04:51 **** Incremental Build of configuration Debug for project Integer Types ****
+make all 
+Building file: ../src/Integer Types.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Integer Types.d" -MT"src/Integer\ Types.d" -o "src/Integer Types.o" "../src/Integer Types.cpp"
+Finished building: ../src/Integer Types.cpp
+ 
+Building target: Integer Types
+Invoking: MacOS X C++ Linker
+g++  -o "Integer Types"  ./src/Integer\ Types.o   
+Finished building target: Integer Types
+ 
+
+18:04:52 Build Finished (took 267ms)
+

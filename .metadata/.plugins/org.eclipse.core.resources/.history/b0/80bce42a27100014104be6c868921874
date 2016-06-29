@@ -1,0 +1,23 @@
+//============================================================================
+// Name        : Arrays.cpp
+// Author      : John Purcell
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+string texts[] = {"one", "two", "three"};
+
+void show(string (&texts)[]) {
+	cout << sizeof(texts) << endl;
+	cout << texts[2] << endl;
+}
+
+int main() {
+
+	show(texts);
+	return 0;
+}

@@ -1,0 +1,9 @@
+The “Static” Keyword
+Particle Fire Introduction
+Using C++ Libraries
+Downloading SDL
+A Basic SDL Program
+An SDL Window
+Textures, Renderers, Buffers
+Animating Colors
+Creating Particles

@@ -1,0 +1,15 @@
+14:00:11 **** Incremental Build of configuration Debug for project Postfix and Prefix ****
+make all 
+Building file: ../src/Postfix and Prefix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Postfix and Prefix.d" -MT"src/Postfix\ and\ Prefix.d" -o "src/Postfix and Prefix.o" "../src/Postfix and Prefix.cpp"
+Finished building: ../src/Postfix and Prefix.cpp
+ 
+Building target: Postfix and Prefix
+Invoking: MacOS X C++ Linker
+g++  -o "Postfix and Prefix"  ./src/Postfix\ and\ Prefix.o   
+Finished building target: Postfix and Prefix
+ 
+
+14:00:11 Build Finished (took 464ms)
+

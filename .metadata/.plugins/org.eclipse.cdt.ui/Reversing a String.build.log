@@ -1,0 +1,15 @@
+19:36:13 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Reversing a String.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
+Finished building: ../src/Reversing a String.cpp
+ 
+Building target: Reversing a String
+Invoking: MacOS X C++ Linker
+g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
+Finished building target: Reversing a String
+ 
+
+19:36:13 Build Finished (took 465ms)
+

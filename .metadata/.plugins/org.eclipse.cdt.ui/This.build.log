@@ -1,0 +1,20 @@
+17:48:44 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.d" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.d" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: This
+Invoking: MacOS X C++ Linker
+g++  -o "This"  ./src/Main.o ./src/Person.o   
+Finished building target: This
+ 
+
+17:48:45 Build Finished (took 926ms)
+

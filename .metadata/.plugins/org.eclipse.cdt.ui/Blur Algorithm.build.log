@@ -1,0 +1,15 @@
+15:05:43 **** Build of configuration Debug for project Blur Algorithm ****
+make all 
+Building file: ../src/Blur Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/SDL2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Blur Algorithm.d" -MT"src/Blur\ Algorithm.d" -o "src/Blur Algorithm.o" "../src/Blur Algorithm.cpp"
+Finished building: ../src/Blur Algorithm.cpp
+ 
+Building target: Blur Algorithm
+Invoking: MacOS X C++ Linker
+g++ -L/usr/local/lib -o "Blur Algorithm"  ./src/Blur\ Algorithm.o   -lSDL2
+Finished building target: Blur Algorithm
+ 
+
+15:05:44 Build Finished (took 522ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;String Streams/src/Getters and Setters.cpp&apos; to &apos;String Streams.cpp&apos;" description="Rename resource &apos;Getters and Setters.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Getters and Setters.cpp" name="String Streams.cpp" stamp="1405098266826" updateReferences="true"/>
+</session>

@@ -1,0 +1,15 @@
+15:01:50 **** Incremental Build of configuration Debug for project Logical And and Right Bitshift ****
+make all 
+Building file: ../src/Logical And and Right Bitshift.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Logical And and Right Bitshift.d" -MT"src/Logical\ And\ and\ Right\ Bitshift.d" -o "src/Logical And and Right Bitshift.o" "../src/Logical And and Right Bitshift.cpp"
+Finished building: ../src/Logical And and Right Bitshift.cpp
+ 
+Building target: Logical And and Right Bitshift
+Invoking: MacOS X C++ Linker
+g++  -o "Logical And and Right Bitshift"  ./src/Logical\ And\ and\ Right\ Bitshift.o   
+Finished building target: Logical And and Right Bitshift
+ 
+
+15:01:52 Build Finished (took 1s.735ms)
+

@@ -1,0 +1,15 @@
+12:40:00 **** Incremental Build of configuration Debug for project Mutable Lambdas ****
+make all 
+Building file: ../src/Mutable Lambdas.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Mutable Lambdas.d" -MT"src/Mutable\ Lambdas.d" -o "src/Mutable Lambdas.o" "../src/Mutable Lambdas.cpp"
+Finished building: ../src/Mutable Lambdas.cpp
+ 
+Building target: Mutable Lambdas
+Invoking: MacOS X C++ Linker
+g++  -o "Mutable Lambdas"  ./src/Mutable\ Lambdas.o   
+Finished building target: Mutable Lambdas
+ 
+
+12:40:00 Build Finished (took 569ms)
+

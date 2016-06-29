@@ -1,0 +1,15 @@
+22:40:02 **** Incremental Build of configuration Release for project 1 - Hello World ****
+make all 
+Building file: ../src/1 - Hello World.cpp
+Invoking: GCC C++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/1 - Hello World.d" -MT"src/1\ -\ Hello\ World.d" -o "src/1 - Hello World.o" "../src/1 - Hello World.cpp"
+Finished building: ../src/1 - Hello World.cpp
+ 
+Building target: 1 - Hello World
+Invoking: MacOS X C++ Linker
+g++  -o "1 - Hello World"  ./src/1\ -\ Hello\ World.o   
+Finished building target: 1 - Hello World
+ 
+
+22:40:02 Build Finished (took 264ms)
+

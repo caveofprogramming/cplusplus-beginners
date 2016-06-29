@@ -1,0 +1,7 @@
+17:52:53 **** Clean-only build of configuration Debug for project Variables ****
+make clean 
+rm -rf  ./src/Variables.o  ./src/Variables.d  Variables
+ 
+
+17:52:53 Build Finished (took 61ms)
+

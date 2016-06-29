@@ -1,0 +1,15 @@
+18:59:05 **** Incremental Build of configuration Debug for project Pointers ****
+make all 
+Building file: ../src/Pointers.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers.d" -MT"src/Pointers.d" -o "src/Pointers.o" "../src/Pointers.cpp"
+Finished building: ../src/Pointers.cpp
+ 
+Building target: Pointers
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers"  ./src/Pointers.o   
+Finished building target: Pointers
+ 
+
+18:59:06 Build Finished (took 464ms)
+

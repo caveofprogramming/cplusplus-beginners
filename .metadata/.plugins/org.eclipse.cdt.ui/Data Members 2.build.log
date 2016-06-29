@@ -1,0 +1,20 @@
+14:42:13 **** Incremental Build of configuration Debug for project Data Members 2 ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.d" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Data Members 2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members 2.d" -MT"src/Data\ Members\ 2.d" -o "src/Data Members 2.o" "../src/Data Members 2.cpp"
+Finished building: ../src/Data Members 2.cpp
+ 
+Building target: Data Members 2
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members 2"  ./src/Cat.o ./src/Data\ Members\ 2.o   
+Finished building target: Data Members 2
+ 
+
+14:42:14 Build Finished (took 821ms)
+

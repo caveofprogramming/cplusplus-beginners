@@ -1,0 +1,15 @@
+14:23:39 **** Build of configuration Debug for project Inheritance and Construction ****
+make all 
+Building file: ../src/Inheritance and Construction.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inheritance and Construction.d" -MT"src/Inheritance\ and\ Construction.d" -o "src/Inheritance and Construction.o" "../src/Inheritance and Construction.cpp"
+Finished building: ../src/Inheritance and Construction.cpp
+ 
+Building target: Inheritance and Construction
+Invoking: MacOS X C++ Linker
+g++  -o "Inheritance and Construction"  ./src/Inheritance\ and\ Construction.o   
+Finished building target: Inheritance and Construction
+ 
+
+14:23:39 Build Finished (took 519ms)
+

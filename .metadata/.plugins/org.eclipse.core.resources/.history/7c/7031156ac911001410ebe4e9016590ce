@@ -1,0 +1,54 @@
+//============================================================================
+// Name        : Inheritance.cpp
+// Author      : John Purcell
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Animal {
+
+private:
+	string sound;
+
+private:
+	string getSound() { return sound; }
+
+public:
+	Animal(): sound("Grrrr") {}
+
+	void speak() { cout << getSound() << endl; }
+};
+
+class Cat: public Animal {
+
+public:
+	void jump() { cout << "Cat jumping!" << endl; }
+};
+
+class Tiger: public Cat {
+
+public:
+	void attackAntelope() { cout << "Attacking!" << endl; }
+};
+
+int main() {
+
+	Animal a;
+	a.getSound();
+	a.speak();
+
+	Cat cat;
+	cat.speak();
+	cat.jump();
+
+	Tiger tiger;
+	tiger.jump();
+	tiger.speak();
+	tiger.attackAntelope();
+
+	return 0;
+}

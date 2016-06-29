@@ -1,0 +1,266 @@
+12:49:13 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+Building file: ../src/Delegating Conctructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Delegating Conctructors.d" -MT"src/Delegating\ Conctructors.d" -o "src/Delegating Conctructors.o" "../src/Delegating Conctructors.cpp"
+Finished building: ../src/Delegating Conctructors.cpp
+ 
+Building target: Delegating Conctructors
+Invoking: MacOS X C++ Linker
+g++  -o "Delegating Conctructors"  ./src/Delegating\ Conctructors.o   
+Finished building target: Delegating Conctructors
+ 
+12:49:16 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+make: Nothing to be done for `all'.
+12:50:10 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+Building file: ../src/Delegating Conctructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Delegating Conctructors.d" -MT"src/Delegating\ Conctructors.d" -o "src/Delegating Conctructors.o" "../src/Delegating Conctructors.cpp"
+../src/Delegating Conctructors.cpp:13:6: warning: private field 'dogs' is not used [-Wunused-private-field]
+        int dogs{5};
+            ^
+1 warning generated.
+Finished building: ../src/Delegating Conctructors.cpp
+ 
+Building target: Delegating Conctructors
+Invoking: MacOS X C++ Linker
+g++  -o "Delegating Conctructors"  ./src/Delegating\ Conctructors.o   
+Finished building target: Delegating Conctructors
+ 
+12:50:41 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+Building file: ../src/Delegating Conctructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Delegating Conctructors.d" -MT"src/Delegating\ Conctructors.d" -o "src/Delegating Conctructors.o" "../src/Delegating Conctructors.cpp"
+../src/Delegating Conctructors.cpp:13:6: warning: private field 'dogs' is not used [-Wunused-private-field]
+        int dogs{5};
+            ^
+1 warning generated.
+Finished building: ../src/Delegating Conctructors.cpp
+ 
+Building target: Delegating Conctructors
+Invoking: MacOS X C++ Linker
+g++  -o "Delegating Conctructors"  ./src/Delegating\ Conctructors.o   
+Finished building target: Delegating Conctructors
+ 
+12:50:56 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+Building file: ../src/Delegating Conctructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Delegating Conctructors.d" -MT"src/Delegating\ Conctructors.d" -o "src/Delegating Conctructors.o" "../src/Delegating Conctructors.cpp"
+../src/Delegating Conctructors.cpp:27:27: error: expected '{' or ','
+        Child(): Parent("hello") = default;
+                                 ^
+../src/Delegating Conctructors.cpp:13:6: warning: private field 'dogs' is not used [-Wunused-private-field]
+        int dogs{5};
+            ^
+1 warning and 1 error generated.
+make: *** [src/Delegating Conctructors.o] Error 1
+12:51:27 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+Building file: ../src/Delegating Conctructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Delegating Conctructors.d" -MT"src/Delegating\ Conctructors.d" -o "src/Delegating Conctructors.o" "../src/Delegating Conctructors.cpp"
+Finished building: ../src/Delegating Conctructors.cpp
+ 
+Building target: Delegating Conctructors
+Invoking: MacOS X C++ Linker
+g++  -o "Delegating Conctructors"  ./src/Delegating\ Conctructors.o   
+Finished building target: Delegating Conctructors
+ 
+12:51:30 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+make: Nothing to be done for `all'.
+12:53:57 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+Building file: ../src/Delegating Conctructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Delegating Conctructors.d" -MT"src/Delegating\ Conctructors.d" -o "src/Delegating Conctructors.o" "../src/Delegating Conctructors.cpp"
+../src/Delegating Conctructors.cpp:31:2: error: constructor for 'Child' must explicitly initialize the base class 'Parent' which does not have a default constructor
+        Child() {
+        ^
+../src/Delegating Conctructors.cpp:12:7: note: 'Parent' declared here
+class Parent {
+      ^
+../src/Delegating Conctructors.cpp:37:9: error: no matching constructor for initialization of 'Parent'
+        Parent parent;
+               ^
+../src/Delegating Conctructors.cpp:22:2: note: candidate constructor not viable: requires single argument 'text', but no arguments were provided
+        Parent(string text) {
+        ^
+../src/Delegating Conctructors.cpp:12:7: note: candidate constructor (the implicit move constructor) not viable: requires 1 argument, but 0 were provided
+class Parent {
+      ^
+../src/Delegating Conctructors.cpp:12:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+2 errors generated.
+make: *** [src/Delegating Conctructors.o] Error 1
+12:54:24 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+Building file: ../src/Delegating Conctructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Delegating Conctructors.d" -MT"src/Delegating\ Conctructors.d" -o "src/Delegating Conctructors.o" "../src/Delegating Conctructors.cpp"
+../src/Delegating Conctructors.cpp:37:9: error: no matching constructor for initialization of 'Parent'
+        Parent parent;
+               ^
+../src/Delegating Conctructors.cpp:22:2: note: candidate constructor not viable: requires single argument 'text', but no arguments were provided
+        Parent(string text) {
+        ^
+../src/Delegating Conctructors.cpp:12:7: note: candidate constructor (the implicit move constructor) not viable: requires 1 argument, but 0 were provided
+class Parent {
+      ^
+../src/Delegating Conctructors.cpp:12:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+1 error generated.
+make: *** [src/Delegating Conctructors.o] Error 1
+12:54:37 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+Building file: ../src/Delegating Conctructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Delegating Conctructors.d" -MT"src/Delegating\ Conctructors.d" -o "src/Delegating Conctructors.o" "../src/Delegating Conctructors.cpp"
+Finished building: ../src/Delegating Conctructors.cpp
+ 
+Building target: Delegating Conctructors
+Invoking: MacOS X C++ Linker
+g++  -o "Delegating Conctructors"  ./src/Delegating\ Conctructors.o   
+Finished building target: Delegating Conctructors
+ 
+12:54:40 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+make: Nothing to be done for `all'.
+12:55:01 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+Building file: ../src/Delegating Conctructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Delegating Conctructors.d" -MT"src/Delegating\ Conctructors.d" -o "src/Delegating Conctructors.o" "../src/Delegating Conctructors.cpp"
+Finished building: ../src/Delegating Conctructors.cpp
+ 
+Building target: Delegating Conctructors
+Invoking: MacOS X C++ Linker
+g++  -o "Delegating Conctructors"  ./src/Delegating\ Conctructors.o   
+Finished building target: Delegating Conctructors
+ 
+12:55:43 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+Building file: ../src/Delegating Conctructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Delegating Conctructors.d" -MT"src/Delegating\ Conctructors.d" -o "src/Delegating Conctructors.o" "../src/Delegating Conctructors.cpp"
+Finished building: ../src/Delegating Conctructors.cpp
+ 
+Building target: Delegating Conctructors
+Invoking: MacOS X C++ Linker
+g++  -o "Delegating Conctructors"  ./src/Delegating\ Conctructors.o   
+Finished building target: Delegating Conctructors
+ 
+12:55:55 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+Building file: ../src/Delegating Conctructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Delegating Conctructors.d" -MT"src/Delegating\ Conctructors.d" -o "src/Delegating Conctructors.o" "../src/Delegating Conctructors.cpp"
+Finished building: ../src/Delegating Conctructors.cpp
+ 
+Building target: Delegating Conctructors
+Invoking: MacOS X C++ Linker
+g++  -o "Delegating Conctructors"  ./src/Delegating\ Conctructors.o   
+Finished building target: Delegating Conctructors
+ 
+12:57:54 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+Building file: ../src/Delegating Conctructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Delegating Conctructors.d" -MT"src/Delegating\ Conctructors.d" -o "src/Delegating Conctructors.o" "../src/Delegating Conctructors.cpp"
+../src/Delegating Conctructors.cpp:13:6: warning: private field 'dogs' is not used [-Wunused-private-field]
+        int dogs{5};
+            ^
+1 warning generated.
+Finished building: ../src/Delegating Conctructors.cpp
+ 
+Building target: Delegating Conctructors
+Invoking: MacOS X C++ Linker
+g++  -o "Delegating Conctructors"  ./src/Delegating\ Conctructors.o   
+Finished building target: Delegating Conctructors
+ 
+11:19:01 **** Build of configuration Debug for project Comparing Floats ****
+make all 
+Building file: ../src/Comparing Floats.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Comparing Floats.d" -MT"src/Comparing\ Floats.d" -o "src/Comparing Floats.o" "../src/Comparing Floats.cpp"
+Finished building: ../src/Comparing Floats.cpp
+ 
+Building target: Comparing Floats
+Invoking: MacOS X C++ Linker
+g++  -o "Comparing Floats"  ./src/Comparing\ Floats.o   
+Finished building target: Comparing Floats
+ 
+11:20:32 **** Incremental Build of configuration Debug for project Comparing Floats ****
+make all 
+Building file: ../src/Comparing Floats.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Comparing Floats.d" -MT"src/Comparing\ Floats.d" -o "src/Comparing Floats.o" "../src/Comparing Floats.cpp"
+Finished building: ../src/Comparing Floats.cpp
+ 
+Building target: Comparing Floats
+Invoking: MacOS X C++ Linker
+g++  -o "Comparing Floats"  ./src/Comparing\ Floats.o   
+Finished building target: Comparing Floats
+ 
+11:20:54 **** Incremental Build of configuration Debug for project Comparing Floats ****
+make all 
+Building file: ../src/Comparing Floats.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Comparing Floats.d" -MT"src/Comparing\ Floats.d" -o "src/Comparing Floats.o" "../src/Comparing Floats.cpp"
+Finished building: ../src/Comparing Floats.cpp
+ 
+Building target: Comparing Floats
+Invoking: MacOS X C++ Linker
+g++  -o "Comparing Floats"  ./src/Comparing\ Floats.o   
+Finished building target: Comparing Floats
+ 
+11:21:16 **** Incremental Build of configuration Debug for project Comparing Floats ****
+make all 
+Building file: ../src/Comparing Floats.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Comparing Floats.d" -MT"src/Comparing\ Floats.d" -o "src/Comparing Floats.o" "../src/Comparing Floats.cpp"
+Finished building: ../src/Comparing Floats.cpp
+ 
+Building target: Comparing Floats
+Invoking: MacOS X C++ Linker
+g++  -o "Comparing Floats"  ./src/Comparing\ Floats.o   
+Finished building target: Comparing Floats
+ 
+11:21:25 **** Incremental Build of configuration Debug for project Comparing Floats ****
+make all 
+Building file: ../src/Comparing Floats.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Comparing Floats.d" -MT"src/Comparing\ Floats.d" -o "src/Comparing Floats.o" "../src/Comparing Floats.cpp"
+Finished building: ../src/Comparing Floats.cpp
+ 
+Building target: Comparing Floats
+Invoking: MacOS X C++ Linker
+g++  -o "Comparing Floats"  ./src/Comparing\ Floats.o   
+Finished building target: Comparing Floats
+ 
+11:22:58 **** Incremental Build of configuration Debug for project Comparing Floats ****
+make all 
+Building file: ../src/Comparing Floats.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Comparing Floats.d" -MT"src/Comparing\ Floats.d" -o "src/Comparing Floats.o" "../src/Comparing Floats.cpp"
+Finished building: ../src/Comparing Floats.cpp
+ 
+Building target: Comparing Floats
+Invoking: MacOS X C++ Linker
+g++  -o "Comparing Floats"  ./src/Comparing\ Floats.o   
+Finished building target: Comparing Floats
+ 
+11:23:33 **** Incremental Build of configuration Debug for project Comparing Floats ****
+make all 
+Building file: ../src/Comparing Floats.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Comparing Floats.d" -MT"src/Comparing\ Floats.d" -o "src/Comparing Floats.o" "../src/Comparing Floats.cpp"
+Finished building: ../src/Comparing Floats.cpp
+ 
+Building target: Comparing Floats
+Invoking: MacOS X C++ Linker
+g++  -o "Comparing Floats"  ./src/Comparing\ Floats.o   
+Finished building target: Comparing Floats
+ 

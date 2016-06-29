@@ -1,0 +1,19 @@
+12:57:54 **** Incremental Build of configuration Debug for project Delegating Conctructors ****
+make all 
+Building file: ../src/Delegating Conctructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Delegating Conctructors.d" -MT"src/Delegating\ Conctructors.d" -o "src/Delegating Conctructors.o" "../src/Delegating Conctructors.cpp"
+../src/Delegating Conctructors.cpp:13:6: warning: private field 'dogs' is not used [-Wunused-private-field]
+        int dogs{5};
+            ^
+1 warning generated.
+Finished building: ../src/Delegating Conctructors.cpp
+ 
+Building target: Delegating Conctructors
+Invoking: MacOS X C++ Linker
+g++  -o "Delegating Conctructors"  ./src/Delegating\ Conctructors.o   
+Finished building target: Delegating Conctructors
+ 
+
+12:57:54 Build Finished (took 571ms)
+

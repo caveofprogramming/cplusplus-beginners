@@ -1,0 +1,6 @@
+12:33:17 **** Incremental Build of configuration Debug for project Public, Private, Protected ****
+make all 
+make: Nothing to be done for `all'.
+
+12:33:17 Build Finished (took 60ms)
+
