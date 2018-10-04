@@ -3,7 +3,7 @@
 // Author      : John Purcell
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Explanation of Switch statement through a code
 //============================================================================
 
 #include <iostream>
@@ -11,20 +11,22 @@ using namespace std;
 
 int main() {
 
-	int value = 4;
+	char choice;
+	cout<<"Enter your choice : \n";
+	cin>>choice;
 
-	switch (value) {
-	case 4:
-		cout << "Value is 4." << endl;
+	switch (choice) {
+	case 'A':
+		cout << "You entered the choice A ^^" << endl;
 		break;
-	case 5:
-		cout << "Value is 5." << endl;
+	case 'B':
+		cout << "You entered the choice B ^^" << endl;
 		break;
 	case 6:
-		cout << "Value is 6." << endl;
+		cout << "You entered the choice C ^^" << endl;
 		break;
 	default:
-		cout << "Unrecognized value." << endl;
+		cout << "No choice matched , Hence the default case will execute" << endl;
 	}
 
 	return 0;
