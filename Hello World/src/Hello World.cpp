@@ -5,8 +5,10 @@
 
 using namespace std;
 
-int main() {
+int main() 
+{
 	cout << "Hello world" << endl;
+	cout << "How are you all doing?" <<endl;
 
 	return 0;
 }
