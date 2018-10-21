@@ -17,16 +17,16 @@ int main() {
 
 	string texts[] = { "one", "two", "three" };
 
-	string *pTexts = texts;
+	string *pTexts = texts; // pointer to string array "texts"
 
 	for (int i = 0; i < sizeof(texts) / sizeof(string); i++) {
-		cout << pTexts[i] << " " << flush;
+		cout << pTexts[i] << " " << flush;       // printing the string array without pointer
 	}
 
 	cout << endl;
 
 	for (int i = 0; i < sizeof(texts) / sizeof(string); i++, pTexts++) {
-		cout << *pTexts << " " << flush;
+		cout << *pTexts << " " << flush;     // printing the string array by incrementing the pointer
 	}
 
 	cout << endl;
@@ -35,7 +35,7 @@ int main() {
 	string *pEnd = &texts[2];
 
 	while(true) {
-		cout << *pElement << " " << flush;
+		cout << *pElement << " " << flush;    // printing the string array by incrementing the pointer stopping by comparing two pointers
 
 		if(pElement == pEnd) {
 			break;
