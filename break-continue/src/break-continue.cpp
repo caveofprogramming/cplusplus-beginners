@@ -24,21 +24,35 @@ int main() {
 	 cout << "Looping ..." << endl;
 
 	 }
+	  Output:
+	 1
+	 2
+	 3
+	 
 	 */
 
 	/* continue ...
 	 for (int i = 0; i < 5; i++) {
+	 
+	  if (i == 3) {
+	 	 continue;
+	 }
 
 	 cout << "i is: " << i << endl;
 
-	 if (i == 3) {
-	 	 continue;
-	 }
+	
 
 	 cout << "Looping ..." << endl;
 
 	 }
+	 
+	 Output: 
+	 1
+	 2
+	 4
+	 
 	 */
+	
 
 	const string password = "hello";
 
