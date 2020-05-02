@@ -33,8 +33,8 @@ void show3(string (&texts)[3]) {
 
 	// cout << sizeof(texts) << endl; returns sizeof pointer!
 
-	for(int i=0; i<sizeof(texts)/sizeof(string); i++) {
-		cout << texts[i] << endl;
+	for(auto & text : texts) {
+		cout << text << endl;
 	}
 }
 
@@ -44,7 +44,7 @@ char *getMemory() {
 	return pMem;
 }
 
-void freeMemory(char *pMem) {
+void freeMemory(const char *pMem) {
 	delete [] pMem;
 }
 
